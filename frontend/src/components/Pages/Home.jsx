@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import UserContext from '../../contexts/UserContext';
-import Video from '../../assets/Image/video.mp4';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
@@ -76,7 +75,7 @@ function Home() {
 
   const features = [
     {
-      title: "Over 700 categories",
+      title: "Over 8 categories",
       description: "Get results from skilled freelancers from all over the world, for every task, at any price point.",
     },
     {
@@ -94,7 +93,7 @@ function Home() {
   ];
 
   return (
-    <>
+    <div className='mt-24'>
       {/* Hero Section */}
       <div className="bg-green-900 text-white min-h-max m-10 rounded-3xl">
         <section className="container mx-auto text-center pt-16 pb-10">
@@ -161,31 +160,8 @@ function Home() {
         </div>
       </div>
 
-      {/* Video Section */}
-      <section className="py-16 bg-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Watch Our Introductory Video
-          </h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Learn more about our platform and how we can help you connect with top freelancers worldwide.
-          </p>
-
-          <div className="relative pb-9/16 h-70 w-full">
-            <video
-              className="h-70 w-full rounded-3xl"
-              autoPlay
-              muted
-              loop
-              id="video-bg"
-            >
-              <source src={Video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-      </section>
-    </>
+     
+    </div>
   );
 }
 
