@@ -12,7 +12,7 @@ const Navbar = () => {
     const isClient = loggedin && user === 'client';
 
     return (
-        <nav className="fixed top-0 left-0 right-0 flex justify-between items-center p-4 bg-green-500 z-50">
+        <nav className="fixed top-0 left-0 right-0 flex justify-between items-center p-4 bg-green-900 z-50">
             <NavLink to="/" className="text-white text-2xl font-bold">Freelancer Fusion</NavLink>
             <div>
                 {/* Common Nav Links */}
