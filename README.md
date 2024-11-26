@@ -3,6 +3,10 @@
 ## Project Overview
 **Freelancer Website** is a full-stack application designed to connect freelancers with clients seeking various services. Built using **React** for the frontend and **Django** for the backend, this platform allows users to create profiles, showcase their skills, and find job opportunities. The application uses **SQLite** for data storage.
 
+![Screenshot](https://github.com/user-attachments/assets/23d60138-14c1-4d9c-b7fc-04ccd3834062)
+
+![Screenshot](https://github.com/user-attachments/assets/2b72edcd-296d-4eaa-889c-fe24dfcbd2bf)
+
 ## Features
 - **User Profiles:** Freelancers can create and manage their profiles to showcase their skills, experience, and portfolio.
 - **Job Listings:** Clients can post job opportunities that freelancers can browse and apply for.
