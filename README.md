@@ -19,7 +19,6 @@
 
 ### Prerequisites
 Make sure you have the following installed:
-- Node.js
 - Python 3.x
 - Django
 - SQLite (comes pre-installed with Django)
